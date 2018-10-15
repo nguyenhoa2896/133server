@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds131903.mlab.com",
+        "srv": false,
+        "port": "31903",
+        "database": "simpleshop",
+        "username": "Azurite",
+        "password": "Fire1411"
+      },
+      "options": {
+        "authenticationDatabase": "simpleshop",
+        "ssl": false
+      }
+    }
+  }
+}
